@@ -1,0 +1,17 @@
+characters:
+  documentID: auto
+  name: string
+  kana: string
+  height : string?
+  date_of_birth: string?
+  school: string
+  grade : number?
+
+schools:
+  documentID: auto
+  name: string
+  kana: string
+  location : string
+  characterIDs: [characters.id]
+
+    

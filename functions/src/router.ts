@@ -1,6 +1,6 @@
 import * as functions from 'firebase-functions'
 import * as express from 'express'
 
-const app = express()
+const router = express.Router()
 
-export const api = functions.https.onRequest(app)
+router.route('/v1/characters').get((res, req) => {})

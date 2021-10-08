@@ -12,6 +12,5 @@ schools:
   name: string
   kana: string
   location : string
-  characterIDs: [characters.id]
 
     
